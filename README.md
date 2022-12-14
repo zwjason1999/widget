@@ -10,3 +10,6 @@
 ### keyword_finder
 
 在指定目录下的所有文本文件中，搜索指定关键字并记录其上一级目录的名字。
+
+它的[README.md]([widget/README.md at main · zwjason1999/widget (github.com)](https://github.com/zwjason1999/widget/blob/main/keyword_finder_c_version/README.md))。
+
