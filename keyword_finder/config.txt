@@ -1,9 +1,0 @@
-# 编写配置文件前请务必阅读README.md说明文件。
-# 要查找的关键字。
-keyword=ls
-# ssh指令文件的路径，必须已存在。
-ssh_input_file_path=./ssh
-# 输出路径，必须已存在。
-ssh_output_file_path=./result
-# 指定ssh_input_file_path下哪些id要查找，格式[id1,id2,id3]，英文逗号隔开，不要加空格；若为空则默认搜索所有ID。
-ssh_ids=[9527，9528]
