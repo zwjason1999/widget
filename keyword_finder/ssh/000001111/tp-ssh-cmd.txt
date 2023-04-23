@@ -1,0 +1,6 @@
+ls
+ls
+lls
+ls -l
+rm
+rm -rf
