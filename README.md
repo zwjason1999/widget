@@ -6,7 +6,11 @@
 
 # 简介
 
-1. `LogSystem `是一个简单的单线程同步阻塞日志器系统，主要用于日常开发 DEBUG，学习实现 C 风格分级日志接口。
+1. `LogSystem` 是一个简单的单线程同步阻塞日志器系统，主要用于日常开发 DEBUG，学习实现 C 风格分级日志接口。
 2. `USBMonitor` 是 USB 热插拔监听程序，Linux 下还具有禁用 USB 设备的功能。
 
 3. `TinyLogger` 是仿 muduo 采用多重缓存、多线程等技术实现的 C 风格分级日志接口，勉强可以用于小型项目。
+
+4. `SmallTools` 是一些常用小工具：
+    - `smart_pointer.h` 是自己尝试实现的智能指针，MySharedPtr 模仿 C++11 的 shared_ptr。
+    - `noncopyable.h` 实现一个基类，删除拷贝构造函数和拷贝赋值运算符，使得继承该类的子类也无法被拷贝。 
